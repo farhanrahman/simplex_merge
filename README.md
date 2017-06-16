@@ -30,8 +30,9 @@ Following points show how to use it.
 1. Create a file (example filelist.txt) and add the full path of the files that needs to be merged.
 
    Example file could look like this:
-   filelist.txt
-   /home/user1/test_0.pdf
-   /home/user1/test_1.pdf
+   
+   filelist.txt <br />
+   /home/user1/test_0.pdf <br />
+   /home/user1/test_1.pdf <br />
 
 2. Invoke ```python merge.py --file_list=filelist.txt -o merged_files.pdf```
