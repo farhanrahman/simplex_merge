@@ -3,7 +3,7 @@
 import optparse
 from PyPDF2 import PdfFileWriter, PdfFileReader
 
-parser = optparse.OptionParser("merge.py")
+parser = optparse.OptionParser("interleave.py")
 parser.add_option("--even_file", default=None,
                  dest="even_file",
                  help="First pdf having even pages only")
